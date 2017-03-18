@@ -1,0 +1,2424 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="mainTabbedPane" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="mainTabbedPane" min="-2" pref="728" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="mainTabbedPane">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="mainPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Main">
+                <Property name="tabTitle" type="java.lang.String" value="Main"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="labelPressureImage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="labelPressureValue" pref="610" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                              <Component id="labelSeaPressureImage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="labelSeaPressureValue" pref="155" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labelIpAdress" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ipAdressText" min="-2" pref="187" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labelTempBmp180Image" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="labelTempBmp180Value" min="-2" pref="182" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="buttonConnect" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="labelDateTimeImage" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="labelDateTimeValue" max="32767" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Component id="labelVarianceTempImage" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="labelVarianceTempValue" min="-2" pref="173" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="labelAvgTempImage" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="labelAvgTempValue" min="-2" pref="192" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="labelTempDht11Image" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="labelTempDht11Value" min="-2" pref="178" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="labelHumidityImage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelHumidityValue" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="198" max="-2" attributes="0"/>
+                              <Component id="labelLightImage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="labelAltitudeImage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelAltitudeValue" min="-2" pref="161" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="labelDateTimeImage" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="labelIpAdress" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="buttonConnect" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                                  <Component id="ipAdressText" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="labelDateTimeValue" min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="labelTempBmp180Image" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelTempBmp180Value" min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="labelVarianceTempImage" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelVarianceTempValue" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="labelTempDht11Value" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="labelAvgTempValue" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="labelAvgTempImage" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelTempDht11Image" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="labelAltitudeImage" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelAltitudeValue" min="-2" pref="80" max="-2" attributes="0"/>
+                              <Component id="labelHumidityImage" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelHumidityValue" min="-2" pref="80" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="labelLightImage" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="labelSeaPressureValue" min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="labelSeaPressureImage" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelPressureImage" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelPressureValue" min="-2" pref="80" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="187" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="labelLightImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/bulb-off.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelTempDht11Value">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[100, 100]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[100, 100]"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[100, 100]"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelVarianceTempValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelVarianceTempImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/temp-D.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelTempDht11Image">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/temp-t2.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelTempBmp180Value">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelTempBmp180Image">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/temp-t1.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelAvgTempImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/temp-AVG.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelAvgTempValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelHumidityImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/humidity.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPressureImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/pressure.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPressureValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelHumidityValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelAltitudeImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/altitude.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelAltitudeValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelSeaPressureValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelSeaPressureImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/sea-pressure.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelDateTimeImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/datetime.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelDateTimeValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="18" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelIpAdress">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/ip-adress.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="ipAdressText">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="18" style="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ipAdressTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonConnect">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/disconnected.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Disconnected"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonConnectActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="humidityPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Humidity &amp; Pressures">
+                <Property name="tabTitle" type="java.lang.String" value="Humidity &amp; Pressures"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label3DateTimeImage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label3DateTimeValue" max="32767" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label2HumidityImage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2HumidityValue" min="-2" pref="119" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="label2AltitudeImage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2AltitudeValue" min="-2" pref="117" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="label2PressureImage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2PressureValue" min="-2" pref="231" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="label2SeaPressureImage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2SeaPressureValue" pref="284" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="334" max="-2" attributes="0"/>
+                      <Component id="label3LightImage" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboYearHumidityStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelYearHumidityTextStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboMonthHumidityStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelMonthHumidityTextStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboDayHumidityStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelDayHumidityTextStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelHumidityTextStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboHourHumidityStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelHourHumidityTextStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboMinuteHumidityStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelMinuteHumidityTextStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="buttonHumidityTableShow" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="299" max="-2" attributes="0"/>
+                                              <Component id="buttonHumidityResetTable" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="labelSecondHumidityTextStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="comboSecondHumidityStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="-2" pref="195" max="-2" attributes="0"/>
+                                                      <Component id="labelHumidityTextEnd" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="comboYearHumidityEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="labelYearHumidityTextEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="comboMonthHumidityEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="labelMonthHumidityTextEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="comboDayHumidityEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="labelDayHumidityTextEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboHourHumidityEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelHourHumidityTextEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboMinuteHumidityEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelMinuteHumidityTextEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="labelSecondHumidityTextEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="comboSecondHumidityEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace pref="443" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="buttonPressurePlot" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
+                              <Component id="buttonHumidityPlot" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="label3DateTimeImage" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label3DateTimeValue" min="-2" pref="40" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="label2PressureImage" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label2PressureValue" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="label2HumidityImage" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="label2HumidityValue" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="label2AltitudeImage" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label2AltitudeValue" min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="label2SeaPressureImage" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2SeaPressureValue" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="label3LightImage" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="labelYearHumidityTextStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelMonthHumidityTextStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelDayHumidityTextStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelHourHumidityTextStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="comboHourHumidityStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="comboDayHumidityStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="comboYearHumidityStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="comboMonthHumidityStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="labelMinuteHumidityTextStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelSecondHumidityTextStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="comboMinuteHumidityStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="comboSecondHumidityStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="labelMonthHumidityTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="labelDayHumidityTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="labelHourHumidityTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="labelMinuteHumidityTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="labelSecondHumidityTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="comboMinuteHumidityEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="comboSecondHumidityEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="comboHourHumidityEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="comboDayHumidityEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="comboMonthHumidityEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="labelYearHumidityTextEnd" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="comboYearHumidityEnd" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelHumidityTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelHumidityTextStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="buttonHumidityTableShow" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="buttonHumidityResetTable" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="129" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="buttonPressurePlot" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="buttonHumidityPlot" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="26" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="label3LightImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/bulb-off.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2AltitudeImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/altitude.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2AltitudeValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2SeaPressureValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2SeaPressureImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/sea-pressure.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2HumidityValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2HumidityImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/humidity.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2PressureImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/pressure.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2PressureValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelYearHumidityTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Year"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboYearHumidityStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="2016"/>
+                    <StringItem index="1" value="2017"/>
+                    <StringItem index="2" value="2018"/>
+                    <StringItem index="3" value="2019"/>
+                    <StringItem index="4" value="2020"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboMonthHumidityStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelMonthHumidityTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Month"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelDayHumidityTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Day"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboDayHumidityStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="31">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboDayHumidityStartActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonHumidityTableShow">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/table.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Show Table"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonHumidityTableShowActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboHourHumidityStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="24">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelHourHumidityTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hour"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelMinuteHumidityTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Minute"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboMinuteHumidityStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="60">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                    <StringItem index="31" value="32"/>
+                    <StringItem index="32" value="33"/>
+                    <StringItem index="33" value="34"/>
+                    <StringItem index="34" value="35"/>
+                    <StringItem index="35" value="36"/>
+                    <StringItem index="36" value="37"/>
+                    <StringItem index="37" value="38"/>
+                    <StringItem index="38" value="39"/>
+                    <StringItem index="39" value="40"/>
+                    <StringItem index="40" value="41"/>
+                    <StringItem index="41" value="42"/>
+                    <StringItem index="42" value="43"/>
+                    <StringItem index="43" value="44"/>
+                    <StringItem index="44" value="45"/>
+                    <StringItem index="45" value="46"/>
+                    <StringItem index="46" value="47"/>
+                    <StringItem index="47" value="48"/>
+                    <StringItem index="48" value="49"/>
+                    <StringItem index="49" value="50"/>
+                    <StringItem index="50" value="51"/>
+                    <StringItem index="51" value="52"/>
+                    <StringItem index="52" value="53"/>
+                    <StringItem index="53" value="54"/>
+                    <StringItem index="54" value="55"/>
+                    <StringItem index="55" value="56"/>
+                    <StringItem index="56" value="57"/>
+                    <StringItem index="57" value="58"/>
+                    <StringItem index="58" value="59"/>
+                    <StringItem index="59" value="60"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelSecondHumidityTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Second"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboSecondHumidityStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="60">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                    <StringItem index="31" value="32"/>
+                    <StringItem index="32" value="33"/>
+                    <StringItem index="33" value="34"/>
+                    <StringItem index="34" value="35"/>
+                    <StringItem index="35" value="36"/>
+                    <StringItem index="36" value="37"/>
+                    <StringItem index="37" value="38"/>
+                    <StringItem index="38" value="39"/>
+                    <StringItem index="39" value="40"/>
+                    <StringItem index="40" value="41"/>
+                    <StringItem index="41" value="42"/>
+                    <StringItem index="42" value="43"/>
+                    <StringItem index="43" value="44"/>
+                    <StringItem index="44" value="45"/>
+                    <StringItem index="45" value="46"/>
+                    <StringItem index="46" value="47"/>
+                    <StringItem index="47" value="48"/>
+                    <StringItem index="48" value="49"/>
+                    <StringItem index="49" value="50"/>
+                    <StringItem index="50" value="51"/>
+                    <StringItem index="51" value="52"/>
+                    <StringItem index="52" value="53"/>
+                    <StringItem index="53" value="54"/>
+                    <StringItem index="54" value="55"/>
+                    <StringItem index="55" value="56"/>
+                    <StringItem index="56" value="57"/>
+                    <StringItem index="57" value="58"/>
+                    <StringItem index="58" value="59"/>
+                    <StringItem index="59" value="60"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelHumidityTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Finish"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelHumidityTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Start"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tableHumidityPressure">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="5" rowCount="0">
+                        <Column editable="true" title="DateTime " type="java.lang.String"/>
+                        <Column editable="true" title="Humidity (%)" type="java.lang.Double"/>
+                        <Column editable="true" title="Altitude (m)" type="java.lang.Double"/>
+                        <Column editable="true" title="Pressure (Pa)" type="java.lang.Double"/>
+                        <Column editable="true" title="Sea Pressure (Pa)" type="java.lang.Double"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="buttonPressurePlot">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/plot.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Make Plot of Pressure "/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonPressurePlotActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonHumidityPlot">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/plot.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Make Plot of Humidity "/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonHumidityPlotActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label3DateTimeImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/datetime.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label3DateTimeValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="18" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelYearHumidityTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Year"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelMonthHumidityTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Month"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboYearHumidityEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="2016"/>
+                    <StringItem index="1" value="2017"/>
+                    <StringItem index="2" value="2018"/>
+                    <StringItem index="3" value="2019"/>
+                    <StringItem index="4" value="2020"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboMonthHumidityEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboDayHumidityEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="31">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelDayHumidityTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Day"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelHourHumidityTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hour"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboHourHumidityEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="24">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboMinuteHumidityEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="60">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                    <StringItem index="31" value="32"/>
+                    <StringItem index="32" value="33"/>
+                    <StringItem index="33" value="34"/>
+                    <StringItem index="34" value="35"/>
+                    <StringItem index="35" value="36"/>
+                    <StringItem index="36" value="37"/>
+                    <StringItem index="37" value="38"/>
+                    <StringItem index="38" value="39"/>
+                    <StringItem index="39" value="40"/>
+                    <StringItem index="40" value="41"/>
+                    <StringItem index="41" value="42"/>
+                    <StringItem index="42" value="43"/>
+                    <StringItem index="43" value="44"/>
+                    <StringItem index="44" value="45"/>
+                    <StringItem index="45" value="46"/>
+                    <StringItem index="46" value="47"/>
+                    <StringItem index="47" value="48"/>
+                    <StringItem index="48" value="49"/>
+                    <StringItem index="49" value="50"/>
+                    <StringItem index="50" value="51"/>
+                    <StringItem index="51" value="52"/>
+                    <StringItem index="52" value="53"/>
+                    <StringItem index="53" value="54"/>
+                    <StringItem index="54" value="55"/>
+                    <StringItem index="55" value="56"/>
+                    <StringItem index="56" value="57"/>
+                    <StringItem index="57" value="58"/>
+                    <StringItem index="58" value="59"/>
+                    <StringItem index="59" value="60"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelMinuteHumidityTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Minute"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelSecondHumidityTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Second"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboSecondHumidityEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="60">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                    <StringItem index="31" value="32"/>
+                    <StringItem index="32" value="33"/>
+                    <StringItem index="33" value="34"/>
+                    <StringItem index="34" value="35"/>
+                    <StringItem index="35" value="36"/>
+                    <StringItem index="36" value="37"/>
+                    <StringItem index="37" value="38"/>
+                    <StringItem index="38" value="39"/>
+                    <StringItem index="39" value="40"/>
+                    <StringItem index="40" value="41"/>
+                    <StringItem index="41" value="42"/>
+                    <StringItem index="42" value="43"/>
+                    <StringItem index="43" value="44"/>
+                    <StringItem index="44" value="45"/>
+                    <StringItem index="45" value="46"/>
+                    <StringItem index="46" value="47"/>
+                    <StringItem index="47" value="48"/>
+                    <StringItem index="48" value="49"/>
+                    <StringItem index="49" value="50"/>
+                    <StringItem index="50" value="51"/>
+                    <StringItem index="51" value="52"/>
+                    <StringItem index="52" value="53"/>
+                    <StringItem index="53" value="54"/>
+                    <StringItem index="54" value="55"/>
+                    <StringItem index="55" value="56"/>
+                    <StringItem index="56" value="57"/>
+                    <StringItem index="57" value="58"/>
+                    <StringItem index="58" value="59"/>
+                    <StringItem index="59" value="60"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonHumidityResetTable">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/refresh.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Reset Table"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonHumidityResetTableActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="temperaturesPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Temperatures">
+                <Property name="tabTitle" type="java.lang.String" value="Temperatures"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="comboYearTempStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="labelYearTempTextStart" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="comboMonthTempStart" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelMonthTempTextStart" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="labelDayTempTextStart" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="comboDayTempStart" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboHourTempStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelHourTempTextStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboMinuteTempStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelMinuteTempTextStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="labelSecondTempTextStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="comboSecondTempStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboYearTempEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelYearTempTextEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Component id="comboMonthTempEnd" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelMonthTempTextEnd" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Component id="labelTempTextStart" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboDayTempEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelDayTempTextEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboHourTempEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelHourTempTextEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="comboMinuteTempEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelMinuteTempTextEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="labelSecondTempTextEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="comboSecondTempEnd" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Component id="labelTempEndText" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="label2TempBmp180Value" min="-2" pref="185" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="label2VarianceTempImage" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="label2VarianceTempValue" min="-2" pref="202" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="label2AvgTempImage" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="label2AvgTempValue" min="-2" pref="206" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="label2TempDht11Image" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="label2TempDht11Value" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="326" max="-2" attributes="0"/>
+                                      <Component id="buttonTempPlot" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="label2DateTimeImage" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="label2DateTimeValue" pref="1190" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="label2TempBmp180Image" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="222" max="-2" attributes="0"/>
+                                                      <Component id="label2LightImage" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace min="-2" pref="207" max="-2" attributes="0"/>
+                                                      <Component id="buttonTempShowValues" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="289" max="-2" attributes="0"/>
+                                                      <Component id="buttonTempResetTable" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="label2DateTimeImage" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2DateTimeValue" alignment="1" min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="label2TempBmp180Image" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2TempBmp180Value" min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="label2TempDht11Value" min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="label2TempDht11Image" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="label2VarianceTempImage" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="label2VarianceTempValue" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="label2AvgTempValue" min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="label2AvgTempImage" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="label2LightImage" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labelYearTempTextStart" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="comboYearTempStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="comboMonthTempStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="labelMonthTempTextStart" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="labelDayTempTextStart" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="comboDayTempStart" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="labelHourTempTextStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labelMinuteTempTextStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labelSecondTempTextStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="comboMinuteTempStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="comboSecondTempStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="comboHourTempStart" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="labelTempTextStart" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="labelYearTempTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labelMonthTempTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labelDayTempTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="comboDayTempEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="comboYearTempEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="comboMonthTempEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="labelHourTempTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labelMinuteTempTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labelSecondTempTextEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="comboMinuteTempEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="comboSecondTempEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="comboHourTempEnd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="labelTempEndText" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="buttonTempResetTable" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="buttonTempShowValues" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="129" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="buttonTempPlot" min="-2" pref="35" max="-2" attributes="0"/>
+                      <EmptySpace pref="58" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="label2VarianceTempValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2LightImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/bulb-off.png"/>
+                </Property>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="light"/>
+              </AccessibilityProperties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2TempDht11Value">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2TempDht11Image">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/temp-t2.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2VarianceTempImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/temp-D.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2AvgTempValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2AvgTempImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/temp-AVG.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2TempBmp180Image">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/temp-t1.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2TempBmp180Value">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="22" style="1"/>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tableTemp">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="5" rowCount="0">
+                        <Column editable="true" title="DateTime" type="java.lang.String"/>
+                        <Column editable="true" title="Temp1 (&#xb0;C)" type="java.lang.Double"/>
+                        <Column editable="true" title="Temp2 (&#xb0;C)" type="java.lang.Double"/>
+                        <Column editable="true" title="Average Temp (&#xb0;C)" type="java.lang.Double"/>
+                        <Column editable="true" title="Difference Temp (&#xb0;C)" type="java.lang.Double"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JComboBox" name="comboYearTempStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="2016"/>
+                    <StringItem index="1" value="2017"/>
+                    <StringItem index="2" value="2018"/>
+                    <StringItem index="3" value="2019"/>
+                    <StringItem index="4" value="2020"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboYearTempStartActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboHourTempStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="24">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboDayTempStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="31">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboMinuteTempStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="60">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                    <StringItem index="31" value="32"/>
+                    <StringItem index="32" value="33"/>
+                    <StringItem index="33" value="34"/>
+                    <StringItem index="34" value="35"/>
+                    <StringItem index="35" value="36"/>
+                    <StringItem index="36" value="37"/>
+                    <StringItem index="37" value="38"/>
+                    <StringItem index="38" value="39"/>
+                    <StringItem index="39" value="40"/>
+                    <StringItem index="40" value="41"/>
+                    <StringItem index="41" value="42"/>
+                    <StringItem index="42" value="43"/>
+                    <StringItem index="43" value="44"/>
+                    <StringItem index="44" value="45"/>
+                    <StringItem index="45" value="46"/>
+                    <StringItem index="46" value="47"/>
+                    <StringItem index="47" value="48"/>
+                    <StringItem index="48" value="49"/>
+                    <StringItem index="49" value="50"/>
+                    <StringItem index="50" value="51"/>
+                    <StringItem index="51" value="52"/>
+                    <StringItem index="52" value="53"/>
+                    <StringItem index="53" value="54"/>
+                    <StringItem index="54" value="55"/>
+                    <StringItem index="55" value="56"/>
+                    <StringItem index="56" value="57"/>
+                    <StringItem index="57" value="58"/>
+                    <StringItem index="58" value="59"/>
+                    <StringItem index="59" value="60"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboSecondTempStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="60">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                    <StringItem index="31" value="32"/>
+                    <StringItem index="32" value="33"/>
+                    <StringItem index="33" value="34"/>
+                    <StringItem index="34" value="35"/>
+                    <StringItem index="35" value="36"/>
+                    <StringItem index="36" value="37"/>
+                    <StringItem index="37" value="38"/>
+                    <StringItem index="38" value="39"/>
+                    <StringItem index="39" value="40"/>
+                    <StringItem index="40" value="41"/>
+                    <StringItem index="41" value="42"/>
+                    <StringItem index="42" value="43"/>
+                    <StringItem index="43" value="44"/>
+                    <StringItem index="44" value="45"/>
+                    <StringItem index="45" value="46"/>
+                    <StringItem index="46" value="47"/>
+                    <StringItem index="47" value="48"/>
+                    <StringItem index="48" value="49"/>
+                    <StringItem index="49" value="50"/>
+                    <StringItem index="50" value="51"/>
+                    <StringItem index="51" value="52"/>
+                    <StringItem index="52" value="53"/>
+                    <StringItem index="53" value="54"/>
+                    <StringItem index="54" value="55"/>
+                    <StringItem index="55" value="56"/>
+                    <StringItem index="56" value="57"/>
+                    <StringItem index="57" value="58"/>
+                    <StringItem index="58" value="59"/>
+                    <StringItem index="59" value="60"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelYearTempTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Year"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelMonthTempTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Month"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelDayTempTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Day"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelHourTempTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hour"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelMinuteTempTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Minute"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelSecondTempTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Second"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelTempTextStart">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Start"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelTempEndText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="End"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonTempPlot">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/plot.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Make Plot of Temperatures"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonTempPlotActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonTempShowValues">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/table.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Show Table"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonTempShowValuesActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2DateTimeImage">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/datetime.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label2DateTimeValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="D3 Euronism" size="18" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelYearTempTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Year"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboYearTempEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="2016"/>
+                    <StringItem index="1" value="2017"/>
+                    <StringItem index="2" value="2018"/>
+                    <StringItem index="3" value="2019"/>
+                    <StringItem index="4" value="2020"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelMonthTempTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Month"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboMonthTempEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboDayTempEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="31">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelDayTempTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Day"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelHourTempTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hour"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboHourTempEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="24">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelMinuteTempTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Minute"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboMinuteTempEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="60">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                    <StringItem index="31" value="32"/>
+                    <StringItem index="32" value="33"/>
+                    <StringItem index="33" value="34"/>
+                    <StringItem index="34" value="35"/>
+                    <StringItem index="35" value="36"/>
+                    <StringItem index="36" value="37"/>
+                    <StringItem index="37" value="38"/>
+                    <StringItem index="38" value="39"/>
+                    <StringItem index="39" value="40"/>
+                    <StringItem index="40" value="41"/>
+                    <StringItem index="41" value="42"/>
+                    <StringItem index="42" value="43"/>
+                    <StringItem index="43" value="44"/>
+                    <StringItem index="44" value="45"/>
+                    <StringItem index="45" value="46"/>
+                    <StringItem index="46" value="47"/>
+                    <StringItem index="47" value="48"/>
+                    <StringItem index="48" value="49"/>
+                    <StringItem index="49" value="50"/>
+                    <StringItem index="50" value="51"/>
+                    <StringItem index="51" value="52"/>
+                    <StringItem index="52" value="53"/>
+                    <StringItem index="53" value="54"/>
+                    <StringItem index="54" value="55"/>
+                    <StringItem index="55" value="56"/>
+                    <StringItem index="56" value="57"/>
+                    <StringItem index="57" value="58"/>
+                    <StringItem index="58" value="59"/>
+                    <StringItem index="59" value="60"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboSecondTempEnd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="60">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                    <StringItem index="12" value="13"/>
+                    <StringItem index="13" value="14"/>
+                    <StringItem index="14" value="15"/>
+                    <StringItem index="15" value="16"/>
+                    <StringItem index="16" value="17"/>
+                    <StringItem index="17" value="18"/>
+                    <StringItem index="18" value="19"/>
+                    <StringItem index="19" value="20"/>
+                    <StringItem index="20" value="21"/>
+                    <StringItem index="21" value="22"/>
+                    <StringItem index="22" value="23"/>
+                    <StringItem index="23" value="24"/>
+                    <StringItem index="24" value="25"/>
+                    <StringItem index="25" value="26"/>
+                    <StringItem index="26" value="27"/>
+                    <StringItem index="27" value="28"/>
+                    <StringItem index="28" value="29"/>
+                    <StringItem index="29" value="30"/>
+                    <StringItem index="30" value="31"/>
+                    <StringItem index="31" value="32"/>
+                    <StringItem index="32" value="33"/>
+                    <StringItem index="33" value="34"/>
+                    <StringItem index="34" value="35"/>
+                    <StringItem index="35" value="36"/>
+                    <StringItem index="36" value="37"/>
+                    <StringItem index="37" value="38"/>
+                    <StringItem index="38" value="39"/>
+                    <StringItem index="39" value="40"/>
+                    <StringItem index="40" value="41"/>
+                    <StringItem index="41" value="42"/>
+                    <StringItem index="42" value="43"/>
+                    <StringItem index="43" value="44"/>
+                    <StringItem index="44" value="45"/>
+                    <StringItem index="45" value="46"/>
+                    <StringItem index="46" value="47"/>
+                    <StringItem index="47" value="48"/>
+                    <StringItem index="48" value="49"/>
+                    <StringItem index="49" value="50"/>
+                    <StringItem index="50" value="51"/>
+                    <StringItem index="51" value="52"/>
+                    <StringItem index="52" value="53"/>
+                    <StringItem index="53" value="54"/>
+                    <StringItem index="54" value="55"/>
+                    <StringItem index="55" value="56"/>
+                    <StringItem index="56" value="57"/>
+                    <StringItem index="57" value="58"/>
+                    <StringItem index="58" value="59"/>
+                    <StringItem index="59" value="60"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelSecondTempTextEnd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Second"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboMonthTempStart">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="01"/>
+                    <StringItem index="1" value="02"/>
+                    <StringItem index="2" value="03"/>
+                    <StringItem index="3" value="04"/>
+                    <StringItem index="4" value="05"/>
+                    <StringItem index="5" value="06"/>
+                    <StringItem index="6" value="07"/>
+                    <StringItem index="7" value="08"/>
+                    <StringItem index="8" value="09"/>
+                    <StringItem index="9" value="10"/>
+                    <StringItem index="10" value="11"/>
+                    <StringItem index="11" value="12"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonTempResetTable">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/weatherstationclient/icons/refresh.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Reset Table"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonTempResetTableActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
